@@ -13,7 +13,7 @@ public class RecentInquiry implements IAttribute{
         this.recentInquiryScore = this.calculateScore(recentInquiryIndex);
     }
 
-    @Override
+
     public Double calculateScore( int recentInquiryIndex) {
         //recentInquiryIndex = Credit Score Inquiry raised in last x months;
         return switch (recentInquiryIndex){

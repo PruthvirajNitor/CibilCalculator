@@ -13,7 +13,7 @@ public class EnvironmentVariable {
     public String modelDataPath ;
     public String outputStoragePath ;
     public String outputParquet ;
-    public String envFilePath="D:\\TU_Task\\Codes\\TU_Task 15_10\\TU_Task\\task.env";
+    public String envFilePath="C:\\Users\\Sarvesh.Shevade\\Downloads\\TU_Task\\TU_Task\\task.env";
 
     public EnvironmentVariable() {
         try {
@@ -27,7 +27,6 @@ public class EnvironmentVariable {
         } catch (IOException ex) {
             throw new RuntimeException(ex);
         }
-
 
     }
 

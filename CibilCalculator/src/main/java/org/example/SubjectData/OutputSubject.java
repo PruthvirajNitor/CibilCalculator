@@ -9,9 +9,9 @@ import java.util.Set;
 
 public class OutputSubject  {
 
-    String userId;
-    int cibilScore;
-    String attributeScore;
+    private String userId;
+    private volatile int cibilScore;
+    private String attributeScore;
 
     public OutputSubject(String userId, List<IAttribute> attributeSet) {
         this.userId = userId;

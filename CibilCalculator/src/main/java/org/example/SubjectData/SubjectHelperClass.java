@@ -1,19 +1,13 @@
 package org.example.SubjectData;
 
-import com.clearspring.analytics.util.Pair;
-import net.jcip.annotations.Immutable;
-import org.apache.commons.lang3.tuple.ImmutablePair;
-import org.apache.hadoop.yarn.webapp.hamlet2.Hamlet;
-import org.example.ModelRegistry.Attribute;
+import org.example.MES.ModelRegistry.Attribute;
 import org.example.ModelData.IAttribute;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public  class SubjectHelperClass {
 
